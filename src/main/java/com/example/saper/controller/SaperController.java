@@ -39,8 +39,8 @@ public class SaperController {
 
         canvas.heightProperty().addListener(e -> gameView.draw());
         canvas.widthProperty().addListener(e -> gameView.draw());
-    
-        button.setStyle("-fx-background-image: url('file:A:/CourseWork/Saper/FirstSmile.png')");
+
+        button.setStyle("-fx-background-image: url('file:image/FirstSmile.png')");
 
         game = new Game();
         gameView = new GameView(game,canvas);
@@ -53,7 +53,7 @@ public class SaperController {
 
         countFlag.setFont(Font.font("Cambria",22));
         countFlag.setTextFill(Color.web("#000000"));
-        countFlag.setGraphic(new ImageView(new Image("A:\\CourseWork\\Saper\\flag.png")));
+        countFlag.setGraphic(new ImageView(new Image("A:\\CourseWork\\Saper2\\image\\flag.png")));
 
         time.setFont(Font.font("Cambria",22));
 

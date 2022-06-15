@@ -44,7 +44,7 @@ public class Game {
                 }
             }
             moveResult = MoveResult.IMPOSSIBLE;
-            button.setStyle("-fx-background-image: url('file:A:/CourseWork/Saper/SecondSmile.png')");
+            button.setStyle("-fx-background-image: url('file:image/SecondSmile.png')");
             gameTimer.reset();
         }
 

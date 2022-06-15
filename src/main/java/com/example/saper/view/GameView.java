@@ -23,7 +23,7 @@ public class GameView {
 
     public void draw() {
 
-        Image image = new Image("A:\\CourseWork\\Saper\\saper.jpg");
+        Image image = new Image("A:\\CourseWork\\Saper2\\image\\saper.jpg");
         clear();
 
         GraphicsContext gc = canvas.getGraphicsContext2D();
